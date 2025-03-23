@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 34" width="35" height="34">
+	<title>google</title>
+	<defs>
+		<image width="14" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAAAXNSR0IArs4c6QAAATtJREFUOE+tUz1OAkEYfW82IdrtDVyiWK/VrjYunawWeANvIJxAOAF4EikU7FgbXSuoBQI3gE5jsvOZWdgEAY0hfsVM8s289/29j1jY+Mx3tMWyFrEz3/KtyJlKpJV/jCfGT3MMSl6DZAXABIL0Yc0IB4AjIs1C57XKYehfAdIQxcvCfRxtBC2cgws/oJY7gFWOQq+nBZFh+Q00DL0pqepa6z2CrokoolDMor2FJ64S3QARpESCSFNVLUqQCCMqbVOj+w04Lgd28vk+hrAvFuppExLcgOJaud18vhXN5umuAEfnxxURubZyO0fmkwHOyT56JG/3H16aG4GD0K9RcHrQiYvL9Q5LfleIp0I7rv1vxK1rNOn91NXD9nM/FUvWnL/OMas5VdlijtspZ2utLm9HohAIUjGv2ep2fAE53vdPBnY3ugAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #dc4a38;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<g id="google">
+		<path id="Rectangle 65 copy" fill-rule="evenodd" class="s0" d="m17.5 0c9.4 0 17 7.6 17 17 0 9.4-7.6 17-17 17-9.4 0-17-7.6-17-17 0-9.4 7.6-17 17-17z"/>
+		<use id="" href="#img1" transform="matrix(1,0,0,1,11,10)"/>
+	</g>
+</svg>

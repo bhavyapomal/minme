@@ -1,0 +1,49 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522 246" width="80" height="39">
+	<title>Vector Smart Object</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m43.44 215.54l58.51-215.54h196.4l-58.51 215.54z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #f8910e } 
+		.s1 { fill: #333333 } 
+		.s2 { fill: #ffffff } 
+		.s3 { fill: none;stroke: #f8910e;stroke-linecap: round;stroke-linejoin: round;stroke-width: 8 } 
+		.s4 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 8 } 
+	</style>
+	<g id="OBJECTS">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m24.4 192.7h273v22.8h-273z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m446.7 147.2h-13l-36-36.4c-22.4-22.6-52.8-35.3-84.6-35.3h-17.8l-41.3 140h268v-3.8c0-41.6-33.7-64.5-75.3-64.5z"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m332.1 141.2h51c11 0 16.5-13.3 8.8-21.1l-7-7c-13.9-14-31.8-23.1-51.1-26.1-7.3-1.1-13.9 4.7-13.9 12.1v29.9c0 6.7 5.4 12.2 12.2 12.2z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m43.4 215.5l58.5-215.5h196.5l-58.6 215.5z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m479.5 215.5c0 16.7-13.5 30.3-30.2 30.3-16.7 0-30.3-13.6-30.3-30.3 0-16.7 13.6-30.2 30.3-30.2 16.7 0 30.2 13.5 30.2 30.2z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m472.1 215.5c0 12.6-10.2 22.9-22.8 22.9-12.6 0-22.9-10.3-22.9-22.9 0-12.6 10.3-22.8 22.9-22.8 12.6 0 22.8 10.2 22.8 22.8z"/>
+			</g>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m152.7 215.5c0 16.7-13.6 30.3-30.3 30.3-16.7 0-30.2-13.6-30.2-30.3 0-16.7 13.5-30.2 30.2-30.2 16.7 0 30.3 13.5 30.3 30.2z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m145.2 215.5c0 12.6-10.2 22.9-22.8 22.9-12.6 0-22.8-10.3-22.8-22.9 0-12.6 10.2-22.8 22.8-22.8 12.6 0 22.8 10.2 22.8 22.8z"/>
+			</g>
+		</g>
+		<path id="&lt;Path&gt;" class="s3" d="m4.8 240.3h390.7"/>
+		<g id="&lt;Clip Group&gt;" clip-path="url(#cp1)">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s4" d="m37.7 115.3h187.4"/>
+				<path id="&lt;Path&gt;" class="s4" d="m-27.3 141.4h152.3"/>
+				<path id="&lt;Path&gt;" class="s4" d="m13.2 167.4h152.3"/>
+			</g>
+		</g>
+	</g>
+</svg>

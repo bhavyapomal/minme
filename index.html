@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minme</title>
+
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
+    <!-- Slick Slider CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+  </head>
+  <body>
+    
+
+    <header>
+      <section title="Top Bar">
+        <div class="top-bar">
+          <div class="container">
+            <div class="content">
+              <div class="free-standard">
+                <svg
+                  version="1.2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 68 38"
+                  width="33"
+                  height="18"
+                >
+                  <title>Truck</title>
+                  <g id="E-Commerce / Shopping">
+                    <g id="&lt;Group&gt;">
+                      <path
+                        id="&lt;Path&gt;"
+                        fill-rule="evenodd"
+                        fill="none"
+                        stroke="#f8910e"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        d="m9.4 9.7h10.2"
+                      />
+                      <path
+                        id="&lt;Path&gt;"
+                        fill-rule="evenodd"
+                        fill="none"
+                        stroke="#f8910e"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        d="m7.7 23.2h6.8"
+                      />
+                      <path
+                        id="&lt;Path&gt;"
+                        fill-rule="evenodd"
+                        fill="none"
+                        stroke="#f8910e"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        d="m2.6 16.5h13.6"
+                      />
+                      <g id="&lt;Group&gt;">
+                        <path
+                          id="&lt;Path&gt;"
+                          fill="none"
+                          stroke="#f8910e"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          d="m60.3 30c0-2.8-2.3-5.1-5.1-5.1-2.8 0-5.1 2.3-5.1 5.1 0 2.8 2.3 5.1 5.1 5.1 2.8 0 5.1-2.3 5.1-5.1z"
+                        />
+                        <path
+                          id="&lt;Path&gt;"
+                          fill="none"
+                          stroke="#f8910e"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          d="m31.5 30c0-2.8-2.3-5.1-5.1-5.1-2.9 0-5.1 2.3-5.1 5.1 0 2.8 2.2 5.1 5.1 5.1 2.8 0 5.1-2.3 5.1-5.1z"
+                        />
+                      </g>
+                      <g id="&lt;Group&gt;">
+                        <path
+                          id="&lt;Path&gt;"
+                          fill-rule="evenodd"
+                          fill="none"
+                          stroke="#f8910e"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          d="m48.4 30h-16.9"
+                        />
+                      </g>
+                      <g id="&lt;Group&gt;">
+                        <path
+                          id="&lt;Path&gt;"
+                          fill-rule="evenodd"
+                          fill="none"
+                          stroke="#f8910e"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          d="m14.5 2.9h34.5c1.5 0 2.9 0.8 3.7 2.1l5.9 9.8 3.9 1.9c1.8 0.9 2.9 2.7 2.9 4.8v6.8c0 1-0.8 1.7-1.7 1.7h-3.4"
+                        />
+                        <path
+                          id="&lt;Path&gt;"
+                          fill-rule="evenodd"
+                          fill="none"
+                          stroke="#f8910e"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          d="m21.2 30h-6.7"
+                        />
+                      </g>
+                      <path
+                        id="&lt;Path&gt;"
+                        fill-rule="evenodd"
+                        fill="none"
+                        stroke="#f8910e"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        d="m58.6 14.8h-17v-11.9"
+                      />
+                    </g>
+                  </g>
+                </svg>
+                <p>
+                  Free Standard Shipping on all Orders Over <span>$120</span>*
+                  Within Australia!
+                </p>
+              </div>
+              <div class="pay">
+                <img src="assets/paypal.svg" alt="paypal" />
+                <img src="assets/mastercard.svg" alt="mastercard" />
+                <img src="assets/visa.svg" alt="visa" />
+                <img src="assets/after.svg" alt="after" />
+                <img src="assets/zip.svg" alt="zip" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <nav class="main-nav">
+          <div class="nav-left">
+            <div class="menu-button">
+              <button class="menu-toggle" id="menu-btn">
+                <img width="auto" src="assets/menu-button.svg" alt="menu" />
+              </button>
+            </div>
+
+            <div class="nav-side" id="mobile-menu">
+              <button class="menu-close" id="close-menu">✖</button>
+              <ul class="nav">
+                <li class="mobile-nav">
+                  <a href="#">
+                    <img src="assets/heart.svg" alt="wishlist" />
+                    <p>My wishlist</p></a
+                  >
+                </li>
+                <li class="mobile-nav">
+                  <a href="#">
+                    <img src="assets/login-icon.svg" alt="login" />
+                    <p>Login</p></a
+                  >
+                </li>
+                <li class="dropdown mobile-nav">
+                  <div class="nav-item">
+                    <a href="#">
+                      <img src="assets/user-icon.svg" alt="my account" />
+                      <p>My account</p>
+                    </a>
+                    <svg
+                      class="nav-arrow"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="10"
+                      viewBox="0 0 5 3"
+                    >
+                      <image
+                        id="Layer_3_copy_3"
+                        data-name="Layer 3 copy 3"
+                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAYAAABbNsX4AAAAIElEQVQImWOcOXPmfwY0wMTAwMCIJsYIEgQz4DQDAwMAqW4C1Jlh0ssAAAAASUVORK5CYII="
+                      />
+                    </svg>
+                  </div>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Logout</a></li>
+                  </ul>
+                </li>
+                <li class="mobile-nav"><a href="#">Sports</a></li>
+                <li class="mobile-nav"><a href="#">Country</a></li>
+                <li class="mobile-nav"><a href="#">Collection</a></li>
+                <li class="dropdown">
+                  <div class="nav-item">
+                    <a class="nav-link" href="#">Item-1</a>
+                    <svg
+                      class="nav-arrow"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="10"
+                      viewBox="0 0 5 3"
+                    >
+                      <image
+                        id="Layer_3_copy_3"
+                        data-name="Layer 3 copy 3"
+                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAYAAABbNsX4AAAAIElEQVQImWOcOXPmfwY0wMTAwMCIJsYIEgQz4DQDAwMAqW4C1Jlh0ssAAAAASUVORK5CYII="
+                      />
+                    </svg>
+                  </div>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Items 1.1</a></li>
+                    <li><a href="#">Item 1.2</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Item-2</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-3</a></li>
+              </ul>
+            </div>
+
+            <div class="logo">
+              <a href="#"> <img src="assets/logo.svg" alt="logo" /></a>
+            </div>
+          </div>
+          <div class="nav-right">
+            <button class="search-toggle" id="search-btn">
+              <img src="assets/search-icon.svg" alt="search-icon" />
+            </button>
+            <div class="input-box" id="search-box">
+              <form action="#">
+                <input type="text" placeholder="Search..." />
+                <button type="submit">
+                  <svg
+                    version="1.2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 66 66"
+                    width="23"
+                    fill="#fff"
+                    height="23"
+                  >
+                    <g id="Layer 1">
+                      <path
+                        id="&lt;Compound Path&gt;"
+                        fill-rule="evenodd"
+                        d="m60.9 65.2c-1.1 0-2.2-0.5-3-1.3l-11-11c-1.1-1.1-1.5-2.7-1.1-4.2l-1.5-1.5c-4.8 4.2-11 6.5-17.5 6.5-7.1 0-13.9-2.8-18.9-7.9-5.1-5-7.9-11.8-7.9-18.9 0-7.2 2.8-14 7.9-19 5-5.1 11.8-7.9 18.9-7.9 7.2 0 14 2.8 19 7.9 10 9.9 10.5 25.8 1.4 36.4l1.5 1.5q0.6-0.2 1.2-0.2c1.1 0 2.2 0.5 3 1.3l11 11c0.8 0.8 1.2 1.9 1.2 3 0 1.1-0.4 2.2-1.2 3-0.8 0.8-1.9 1.3-3 1.3zm-34.1-59.6c-5.6 0-11 2.2-15 6.2-4 4-6.2 9.4-6.2 15.1 0 5.6 2.2 11 6.2 15 4 4 9.4 6.2 15 6.2 5.7 0 11.1-2.2 15.1-6.2 4-4 6.2-9.3 6.2-15 0-5.7-2.2-11.1-6.2-15.1-4-4-9.4-6.2-15.1-6.2z"
+                      />
+                      <path
+                        id="&lt;Compound Path&gt;"
+                        fill-rule="evenodd"
+                        d="m46.5 44.4l2 2.1c1.4-0.6 2.9-0.3 4 0.8l11 11c1.5 1.4 1.5 3.8 0 5.2-1.4 1.5-3.8 1.5-5.2 0l-11-11c-1.1-1.1-1.4-2.6-0.9-4l-2-2c-10.4 9.2-26.2 8.8-36.1-1.1-10.3-10.2-10.3-26.9 0-37.1 10.2-10.3 26.9-10.3 37.1 0 9.9 9.9 10.3 25.8 1.1 36.1zm-4.2-2.1c8.5-8.5 8.5-22.4 0-30.9-8.5-8.5-22.4-8.5-30.9 0-8.5 8.5-8.5 22.4 0 30.9 8.5 8.5 22.4 8.5 30.9 0z"
+                      />
+                      <path
+                        id="&lt;Compound Path&gt;"
+                        d="m19.8 19.6c3.7-3.8 7.9-6.6 12.4-8.3-5.1-0.3-11.2 1.2-15.5 5.4-4.3 4.3-5.7 10.5-5.3 15.7 1.7-4.7 4.6-9 8.4-12.8z"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                <button type="button" class="close-search" id="close-search">
+                  ✖
+                </button>
+              </form>
+            </div>
+            <ul class="nav-1">
+              <li>
+                <a href="#">
+                  <img src="assets/heart.svg" alt="wishlist" />
+                  <p>My wishlist</p></a
+                >
+              </li>
+              <div class="divider"></div>
+              <li>
+                <a href="#">
+                  <img src="assets/login-icon.svg" alt="login" />
+                  <p>Login</p></a
+                >
+              </li>
+              <div class="divider"></div>
+              <li>
+                <a href="#">
+                  <img src="assets/user-icon.svg" alt="my account" />
+                  <p>My account</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="10"
+                    viewBox="0 0 5 3"
+                  >
+                    <image
+                      id="Layer_3_copy_3"
+                      data-name="Layer 3 copy 3"
+                      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAYAAABbNsX4AAAAIElEQVQImWOcOXPmfwY0wMTAwMCIJsYIEgQz4DQDAwMAqW4C1Jlh0ssAAAAASUVORK5CYII="
+                    />
+                  </svg>
+                </a>
+              </li>
+              <div class="divider"></div>
+            </ul>
+            <a href="#">
+              <img class="cart" src="assets/cart-icon.svg" alt="cart" />
+              <p>$<span>00.00</span></p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="10"
+                viewBox="0 0 5 3"
+              >
+                <image
+                  id="Layer_3_copy_3"
+                  data-name="Layer 3 copy 3"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAYAAABbNsX4AAAAIElEQVQImWOcOXPmfwY0wMTAwMCIJsYIEgQz4DQDAwMAqW4C1Jlh0ssAAAAASUVORK5CYII="
+                />
+              </svg>
+              <div class="count">0</div>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Overlay -->
+      <div class="overlay" id="menu-overlay"></div>
+
+      <!-- Mobile Menu -->
+      <nav class="nav-items">
+        <div class="container">
+          <ul class="nav-2">
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Country</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section title="Hero">
+      <div class="hero-slider">
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="assets/hero-banner.jpg"
+            alt="hero-banner"
+          />
+          <div class="hero-content">
+            <h1>kids fashion</h1>
+            <p>Stay Stylish</p>
+            <a href="#">
+              <img src="assets/shopping-bag.svg" alt="shopping-bag" />Shop Now
+            </a>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="assets/hero-banner.jpg"
+            alt="hero-banner"
+          />
+          <div class="hero-content">
+            <h1>kids fashion</h1>
+            <p>Stay Stylish</p>
+            <a href="#">
+              <img src="assets/shopping-bag.svg" alt="shopping-bag" />Shop Now
+            </a>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="assets/hero-banner.jpg"
+            alt="hero-banner"
+          />
+          <div class="hero-content">
+            <h1>kids fashion</h1>
+            <p>Stay Stylish</p>
+            <a href="#">
+              <img src="assets/shopping-bag.svg" alt="shopping-bag" />Shop Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section title="USP">
+      <div class="usp-bar">
+        <div class="usp-wave"></div>
+        <div class="container">
+          <div class="usp-content">
+            <div class="usp">
+              <img src="assets/usp-1.svg" alt="usp-1" />
+              <p>Australian owned, family<br />business (keeping it real)</p>
+            </div>
+            <div class="usp-divider"></div>
+            <div class="usp">
+              <img src="assets/usp-2.svg" alt="usp-1" />
+              <p>30 Day returns + free shipping<br />for orders over $120</p>
+            </div>
+            <div class="usp-divider"></div>
+            <div class="usp">
+              <img src="assets/usp-3.svg" alt="usp-1" />
+              <p>Fast tracked shipping<br />for your peace of mind</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section title="Category">
+        <div class="col-category">
+          <h2 class="heading">Categories</h2>
+          <div class="row-category">
+            <div class="category-box">
+              <div class="cat-image">
+                <img src="assets/1.jpg" alt="cat-1" />
+              </div>
+              <p>Sporty</p>
+              <a href="#">Shop now</a>
+            </div>
+            <div class="category-box">
+              <div class="cat-image">
+                <img src="assets/2.jpg" alt="cat-1" />
+              </div>
+              <p>Country</p>
+              <a href="#">Shop now</a>
+            </div>
+            <div class="category-box">
+              <div class="cat-image">
+                <img src="assets/3.jpg" alt="cat-1" />
+              </div>
+              <p>Collections</p>
+              <a href="#">Shop now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section title="Testimonial">
+        <div class="testimonial">
+          <h2 class="heading">From our Customers</h2>
+          <div class="testimonial-slider">
+            <div class="testimonial-box">
+              <div class="testimonial-box-inside">
+                <div class="profile">
+                  <div class="profile-image">
+                    <img
+                      src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="profile-image"
+                      class="user-image"
+                    />
+                  </div>
+                  <div class="info">
+                    <p>December 2021</p>
+                    <h5>Karen R</h5>
+                  </div>
+                </div>
+                <div class="messege">
+                  <div class="quote">
+                    <img src="assets/quote.svg" alt="quote" />
+                    <div class="ratings">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="testi-content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p>
+                      Nulla accumsan viverra interdum. Donec vulputate risus
+                      dolor. Suspendisse vehicula dapibus dolor. Duis eget
+                      turpis sollicitudin, iaculis turpis ac, aliquam ante.
+                      Morbi eu mattis tortor, vitae euismod nisi. Donec
+                      fringilla sagittis neque, quis maximus ex lacinia a.
+                      Integer pharetra tristique ipsum et pharetra. Sed
+                      sollicitudin urna eu condimentum rutrum. Mauris eu est vel
+                      mi efficitur fermentum. Cras semper nisl ac accumsan
+                      imperdiet. Maecenas porttitor lacus magna, a ultrices
+                      magna scelerisque et. Proin pretium nibh risus, sit amet
+                      efficitur justo vehicula et. Donec dictum velit at tortor
+                      lacinia elementum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="testimonial-box-inside">
+                <div class="profile">
+                  <div class="profile-image">
+                    <img
+                      src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="profile-image"
+                      class="user-image"
+                    />
+                  </div>
+                  <div class="info">
+                    <p>December 2021</p>
+                    <h5>Karen R</h5>
+                  </div>
+                </div>
+                <div class="messege">
+                  <div class="quote">
+                    <img src="assets/quote.svg" alt="quote" />
+                    <div class="ratings">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="testi-content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p>
+                      Nulla accumsan viverra interdum. Donec vulputate risus
+                      dolor. Suspendisse vehicula dapibus dolor. Duis eget
+                      turpis sollicitudin, iaculis turpis ac, aliquam ante.
+                      Morbi eu mattis tortor, vitae euismod nisi. Donec
+                      fringilla sagittis neque, quis maximus ex lacinia a.
+                      Integer pharetra tristique ipsum et pharetra. Sed
+                      sollicitudin urna eu condimentum rutrum. Mauris eu est vel
+                      mi efficitur fermentum. Cras semper nisl ac accumsan
+                      imperdiet. Maecenas porttitor lacus magna, a ultrices
+                      magna scelerisque et. Proin pretium nibh risus, sit amet
+                      efficitur justo vehicula et. Donec dictum velit at tortor
+                      lacinia elementum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section title="Featured Product">
+        <div class="feat-product">
+          <h2 class="heading">Featured Product</h2>
+          <div class="product-slider">
+            <div class="product-card">
+              <div class="card-inside">
+                <div class="product-image">
+                  <img src="assets/prod-1.jpg" alt="prod-1" />
+                </div>
+                <div class="prod-content">
+                  <h3 class="prod-name">
+                    <a href="#">
+                      Best Wholesale Kids and Baby Clothes Sellers Best
+                      Wholesale Kids and Baby Clothes Sellers
+                    </a>
+                  </h3>
+                  <div class="ratings">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="prod-price"><span>$139.90</span>$130.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-inside">
+                <div class="product-image">
+                  <img src="assets/prod-2.jpg" alt="prod-2" />
+                </div>
+                <div class="prod-content">
+                  <h3 class="prod-name">
+                    <a href="">
+                      Best Wholesale Kids and Baby Clothes Sellers
+                    </a>
+                  </h3>
+                  <div class="ratings">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="prod-price"><span>$139.90</span>$130.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-inside">
+                <div class="product-image">
+                  <img src="assets/prod-3.jpg" alt="prod-3" />
+                </div>
+                <div class="prod-content">
+                  <h3 class="prod-name">
+                    <a href="">
+                      Best Wholesale Kids and Baby Clothes Sellers
+                    </a>
+                  </h3>
+                  <div class="ratings">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="prod-price"><span>$139.90</span>$130.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-inside">
+                <div class="product-image">
+                  <a href="">
+                    <img src="assets/prod-4.jpg" alt="prod-4" />
+                  </a>
+                </div>
+                <div class="prod-content">
+                  <h3 class="prod-name">
+                    <a href="">
+                      Best Wholesale Kids and Baby Clothes Sellers
+                    </a>
+                  </h3>
+                  <div class="ratings">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="prod-price"><span>$139.90</span>$130.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-inside">
+                <div class="product-image">
+                  <img src="assets/prod-5.jpg" alt="prod-5" />
+                </div>
+                <div class="prod-content">
+                  <h3 class="prod-name">
+                    <a href="">
+                      Best Wholesale Kids and Baby Clothes Sellers
+                    </a>
+                  </h3>
+                  <div class="ratings">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="prod-price"><span>$139.90</span>$130.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-inside">
+                <div class="product-image">
+                  <img src="assets/prod-3.jpg" alt="prod-1" />
+                </div>
+                <div class="prod-content">
+                  <h3 class="prod-name">
+                    <a href="">
+                      Best Wholesale Kids and Baby Clothes Sellers
+                    </a>
+                  </h3>
+                  <div class="ratings">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="prod-price"><span>$139.90</span>$130.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section title="Welcome">
+        <div class="welcome">
+          <div class="welcome-image">
+            <img src="assets/welcome-image.png" alt="welcome-image" />
+          </div>
+          <div class="welcome-content">
+            <h2 class="welcome-heading">Welcome to Min<span>me</span></h2>
+            <p class="welcome-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              vestibulum, tellus non tempor pellentesque, purus tellus
+              sollicitudin lacus, vitae consequat ipsum arcu eget odio.
+            </p>
+            <p class="welcome-para">
+              Mauris sed congue sem, id dapibus dui. Donec quis scelerisque
+              ipsum, id suscipit erat. Duis a lectus condimentum eros luctus
+              cursus vel vel nibh. Mauris ut ex nec ex mattis pretium. Nulla
+              sapien nisl, euismod non turpis ut, egestas aliquam augue. Nullam
+              elementum lorem id massa vulputate sollicitudin. Quisque vulputate
+              iaculis libero at faucibus. Fusce aliquam eget purus posuere
+              consectetur. Morbi vel ligula feugiat nunc sollicitudin lobortis
+              vel vestibulum nulla. Vivamus lectus velit, convallis eu lorem
+              nec, sagittis iaculis massa. Suspendisse auctor, est vel
+              vestibulum ornare, lacus lectus viverra mi, facilisis ultricies
+              massa nisi at leo. Pellentesque id leo rutrum, tincidunt est et,
+              vestibulum diam. Nunc dignissim tellus vel nibh pretium gravida
+              semper vitae massa. Nulla dui sapien, scelerisque et posuere sit
+              amet, elementum non ut libero in risus viverra condimentum ut vel
+              erat. Donec a ligula porttitor, fringilla risus id, vehicula
+              ipsum. Vestibulum lacus libero, vehicula eu ante eget, consectetur
+              feugiat nunc.
+            </p>
+            <a class="welcome-a" href="#">Read more</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <section title="Newsletter">
+        <div class="newsletter">
+          <div class="container">
+            <div class="news-row">
+              <div class="news-col">
+                <h4 class="news-title">Newsletter Sign Up</h4>
+                <p class="news-p">
+                  Join the MinMe tribe and be the first to know about new
+                  products and special offers, and receive a 5% discount coupon
+                  on your first order
+                </p>
+              </div>
+              <div class="news-col">
+                <div class="email-box">
+                  <form action="#">
+                    <input
+                      class="email-input"
+                      type="email"
+                      placeholder="Add your Email"
+                    />
+                    <button class="btn-email" type="submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="footer">
+          <div class="footer-col">
+            <div class="logo">
+              <a href="#"> <img src="assets/logo.svg" alt="logo" /></a>
+            </div>
+            <address>
+              <a
+                href="https://maps.app.goo.gl/y2E4fi8MrLk99Jkq8"
+                target="_blank"
+              >
+                <svg
+                  version="1.2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 15 19"
+                  width="15"
+                  height="19"
+                >
+                  <title></title>
+                  <defs>
+                    <image
+                      width="15"
+                      height="19"
+                      id="img1"
+                      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAATCAYAAABPwleqAAAAAXNSR0IArs4c6QAAAbtJREFUOE91U8FtwkAQnCGKuE840YJTApRASoASiJQHJC8oIXkl8IgEJeASoARSArSATD4mUbzR2nfkbBwkC+3dzuzc7ixR+aWvNgKzIch+cLUHGJtxsgzTGQanuZ1kIhMCbQB790UCtN3ZBzIOzFOidziDFSgizwA+QE7NKNl4Ynm37dNXNhFySOCAjHdKkIO/ZrbzA1kT2JvxsetB+oRmEwc+JAc9S2d2CMgCRGxGx0EOTuetFQR9kHdaMZ3bHgoVHQEOhMRm/HlfELTWAHoNsEuVlH7Lzlf1cfEmiQFGmkxy2hwlL6c32xfKSmPm3W3IDpClsntpPtlV2+m/GR9vw/wLcMislarKSuA62adv2ebjITYQqOxOrWzfBAE65pq32lnHvtAzHQ3JparIc99unkFOtLlFt90IwnfquaryY/Jx2NyzSdJZS6VGvnrVthr/GYn3atUA7Azgul7neWnINjRSydveABQOmo9JHBLU3ZXBrzZS9twgGbt+AdLZzQLgECIv5vFz6klL4MKqticiK78AvEI/Xxjn539X8rwQjsCtXbsOWFrJiwZ5BcRGN6iu+xeyw6TqnKsEv6LIKU028aO6AAAAAElFTkSuQmCC"
+                    />
+                  </defs>
+                  <style></style>
+                  <use id="" href="#img1" transform="matrix(1,0,0,1,0,0)" />
+                </svg>
+                173 East Street, ROCKHAMPTON CITY,<br />QLD 4700</a
+              >
+              <a href="tel:07 4819 2200" target="_blank">
+                <img src="assets/phone-icon.svg" alt="phone-icon" />
+                07 4819 2200</a
+              >
+              <a href="mailto:hello@minme.com.au" target="_blank">
+                <img src="assets/email-icon.svg" alt="email-icon" />
+                hello@minme.com.au</a
+              >
+            </address>
+          </div>
+
+          <div class="footer-col">
+            <h6 class="list-title">Categories</h6>
+            <ul class="link-list">
+              <li><a href="#">Sporty</a></li>
+              <li><a href="#">Country</a></li>
+              <li><a href="#">Collection</a></li>
+              <li><a id="view-all" href="#">View All</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h6 class="list-title">Quick Links & Info</h6>
+            <ul class="link-list">
+              <li><a href="#">Create an Account</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">FAQ’s</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="connect">
+              <h6 class="list-title">Connect With Us</h6>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="assets/fb.svg" alt="fb"
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img src="assets/insta.svg" alt="insta"
+                /></a>
+              </div>
+            </div>
+            <div class="payment">
+              <h6 class="list-title">Payment Methods</h6>
+              <div class="pay">
+                <img src="assets/paypal.svg" alt="paypal" />
+                <img src="assets/mastercard.svg" alt="mastercard" />
+                <img src="assets/visa.svg" alt="visa" />
+                <img src="assets/after.svg" alt="after" />
+                <img src="assets/zip.svg" alt="zip" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section title="Bottom Bar">
+        <div class="bottom-wave"></div>
+        <div class="bottom-bar">
+          <div class="container">
+            <div class="content">
+              <p>
+                © 2022
+                <span><a href="#" target="_blank">minme.com.au.</a></span> All
+                Rights Reserved. / Sitemap
+              </p>
+              <p>
+                Site by
+                <span><a href="#" target="_blank">Above & Beyond</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- jQuery and Slick JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

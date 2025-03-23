@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 18" width="28" height="18">
+	<title>Vector Smart Object</title>
+	<style>
+		.s0 { fill: none;stroke: #aaaaaa;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<g id="Arrows">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m19 1l8 8-8 8"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s0" d="m27 9h-26"/>
+		</g>
+	</g>
+</svg>

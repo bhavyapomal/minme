@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="34" height="34">
+	<title>fb</title>
+	<defs>
+		<image width="9" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAARCAYAAAAPFIbmAAAAAXNSR0IArs4c6QAAAMRJREFUKFPFUbsRgkAU3HcVUIIlaAdSAAwhRlAC0IBagXRgCGOCowVICXSgJWhoIOsccKcB4zhj4EU3+3n7bk8wcoJkNwUejqb2+aKWd40mW2krABOLC9dWFCSV08r9DKCbMCrysiIWytaSRA7Fm2rxivOzYgXKUosI1MdN6BqDjfsoCpJi3rsloiAe3I0i0+F+ET8tOVaDwRTpfiFSM/HS8qRd0ndj+rkSaDSuH/Dd4ib79wr+NEl/MChRVwfRHPLQNI4netlwT3KHhUYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #4e71a8;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<g id="fb">
+		<path id="Rectangle 65" fill-rule="evenodd" class="s0" d="m17 0c9.4 0 17 7.6 17 17 0 9.4-7.6 17-17 17-9.4 0-17-7.6-17-17 0-9.4 7.6-17 17-17z"/>
+		<use id="" href="#img1" transform="matrix(1,0,0,1,13,8)"/>
+	</g>
+</svg>

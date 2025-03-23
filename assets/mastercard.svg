@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 23" width="42" height="23">
+	<title>mastercard</title>
+	<defs>
+		<image width="43" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAYCAYAAABjswTDAAAAAXNSR0IArs4c6QAAAbZJREFUWEft188rBGEcx/H3MzvsIrtxWRel9WspDrjJhZRy8OO4inJRkpODlFLyI5SSHPfg4MjVxX8h+bErN0Sxylrs7KNZy0G7Y2ZrM1Pm/O15Xs9nnnm+8wgc9Igvq5RyAZgAqmzmvwF2hBCLaayUch2YsRnyJ2f5C6vr/TbH3goppQJoNofqvNQ/tkBvKf9k5XOcl60wr3sHaGfRtM8VrMMzMoxnehxR4gEtQfIkjBbdR8Yi6Rrhq8UVGEJtHge11Mq68sNqkSue+kfRzi+zTuZqCODd3yB5OoN8yl4jvAGKe3cR3hqzYOtYPdHHtr6c0M+IXfgmqtDarkFJ5cToYPfAodmErWPjK9vE51YN03B3BymvPiLV0clb2ZVhrdo+i9o6ZSZd69iHlh604zPDwX0j5RSpp+APkAi+GtaKikbcg0eFwd4X18B70nDwytAdStEbKCqJrl96jaLiGTNOPzOZ9WQdhXXUNnDUB+aoo0vf7I5pCt8/61nardpUjzs0lKXdHiBjF3/Tbs0cigWosX50FQBhdsiUs24KmTvYEjBndol/VPd5B8uA54FJm95uN4UQax+OHw2QdWviMgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="mastercard" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+</svg>

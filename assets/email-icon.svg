@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 15" width="19" height="15">
+	<title></title>
+	<defs>
+		<image width="19" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAAAXNSR0IArs4c6QAAAUtJREFUOE+1k8FNw0AURGcskH0BixbSQloIJYQSbIlDCKekBHIC55aUEJeAS4AScAuW4eIg8KBvx8FEIomR+Ldd/X37d2aWAPAe+f0SZQBwYOuOlZJM3FE+Y3Hv9+ToicCFgIxA1hHWq/u1ZBH5AaBFtQQyh5zZLYeANgQcrQD0N73pFkZyKikA0AMRe6PXq9+AxdwfSFrZa1rn0JqMoXuKeP2hBYQhgAQlQ+82T9vQ9dyflNLE9hwxdMd5XETnL7b+AfNu8qVt2gFJdwBSkKE3yhPbL6KzBUCbPkXJy+aivbAK+OAPS9Zamo6SzOmBSeCeMOR1vjXqIOw7MpXItWPSzBu/TXe1PApWPc1cYxmATtrI8GfYoYjUWu4x4BhAu+d/YPYvP6HHKidQ3HUqgGaOOZ2wlas6/R1r85+fLeAVrKnKuY7lusiazH0ByH7G0WHrJUsAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

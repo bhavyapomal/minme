@@ -1,0 +1,1135 @@
+@media (max-width: 1600px) {
+  .input-box {
+    min-width: auto;
+  }
+
+  /* ------ Hero Slider ------ */
+  .hero-content h1 {
+    font-size: 80px;
+  }
+
+  .hero-content p {
+    font-size: 66px;
+  }
+
+  .hero-content a {
+    margin-top: 80px;
+    padding: 10px 34px;
+    font-size: 15px;
+    gap: 6px;
+  }
+
+  .hero-content a img {
+    width: 15px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .category-box p {
+    left: 6%;
+    font-size: 32px;
+  }
+
+  .category-box a {
+    padding: 8px 24px;
+    font-size: 15px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome {
+    border: 3px solid #aaaaaa;
+  }
+
+  .welcome-image {
+    margin: 54px;
+    margin-right: 0;
+  }
+
+  .welcome-content {
+    padding: 110px 54px 54px 54px;
+  }
+
+  /* ---------- Newsletter ------------ */
+  .email-input {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  /* ---- Container ---- */
+  .container {
+    max-width: 100%;
+  }
+
+  /* ---- Search Toggle ---- */
+
+  .nav-left {
+    display: flex;
+    align-items: baseline;
+    gap: 60px;
+  }
+
+  .menu-button button {
+    display: block;
+  }
+
+  .search-toggle {
+    margin-right: 20px;
+    display: block;
+  }
+
+  /* Initially hide search box */
+  .input-box {
+    min-width: 480px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Search Form */
+  .nav-right form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-right form input {
+    padding: 12px 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .input-box button {
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    right: 44px;
+  }
+
+  .input-box button svg {
+    width: 21px;
+    height: 21px;
+  }
+
+  .nav-right.search-active .input-box {
+    position: relative;
+    max-width: 100%;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    margin-right: 0;
+  }
+
+  .nav-right.search-active a,
+  .nav-right.search-active .divider,
+  .nav-right.search-active .search-toggle {
+    display: none;
+  }
+
+  .nav-right.search-active {
+    display: block;
+  }
+
+  .close-search {
+    visibility: visible;
+  }
+
+  /* Show close button when search box is active */
+  .nav-right.search-active .close-search {
+    right: 4px;
+    padding: 6.75px 11px;
+    border-radius: 0 5px 5px 0;
+    /* display: flex; */
+    font-size: 18px;
+    background-color: #f3f3f3;
+    color: #888;
+  }
+
+  /* ------ Hero Slider ------ */
+  .hero-content h1 {
+    font-size: 70px;
+  }
+
+  .hero-content p {
+    font-size: 58px;
+  }
+
+  .hero-content a {
+    margin-top: 60px;
+    padding: 8px 26px;
+    font-size: 14px;
+    gap: 7px;
+  }
+
+  .hero-content a img {
+    width: 14px;
+  }
+
+  /* ---------- Heading ------------ */
+
+  .heading {
+    font-size: 28px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .row-category {
+    gap: 32px;
+  }
+
+  .category-box p {
+    font-size: 28px;
+  }
+
+  .category-box a {
+    padding: 6px 22px;
+    font-size: 14px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome-image {
+    width: 500px;
+  }
+
+  .welcome-content {
+    padding: 100px 54px 54px 54px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .nav-right ul {
+    gap: 40px;
+  }
+
+  .count {
+    right: 30px;
+  }
+
+  .nav-right a:nth-of-type(1) p,
+  .nav-right a:nth-of-type(2) p,
+  .nav-right a:nth-of-type(3) p,
+  .divider {
+    display: none;
+  }
+
+  /* ------ Hero Slider ------ */
+  .hero-content h1 {
+    font-size: 60px;
+    line-height: 40px;
+  }
+
+  .hero-content p {
+    font-size: 50px;
+  }
+
+  .hero-content a {
+    margin-top: 62px;
+    padding: 7px 22px;
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .hero-content a img {
+    width: 13px;
+  }
+
+  .usp p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .category-box p {
+    font-size: 22px;
+  }
+
+  .category-box a {
+    padding: 5px 21px;
+    font-size: 13px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome-image {
+    width: 380px;
+    margin-right: 0;
+  }
+
+  .welcome-content {
+    padding: 72px 40px 40px 40px;
+  }
+
+  .welcome-heading {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+
+  .welcome-para {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  .welcome-a {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  /* --------- Footer -------- */
+
+  .footer-col {
+    width: 25%;
+  }
+
+  .footer-col:nth-child(1) {
+    width: 45%;
+  }
+
+  .footer-col:nth-of-type(2) {
+    padding-left: 0;
+  }
+
+  .footer-col:nth-of-type(3) {
+    padding-left: 0;
+  }
+
+  .footer-col:nth-child(4) {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payment {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* ---- Top Bar ---- */
+  .top-bar .content {
+    justify-content: center;
+    padding: 13px 10px;
+  }
+
+  .top-bar .pay {
+    display: none;
+  }
+
+  .nav-left {
+    gap: 30px;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .menu-button button img {
+    width: 32px;
+  }
+
+  .nav-items ul {
+    display: flex;
+    gap: 100px;
+    font-size: 16px;
+  }
+
+  /* ------ Hero Slider ------ */
+  .hero-content {
+    top: 25%;
+    right: 16%;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  .hero-content p {
+    font-size: 34px;
+  }
+
+  .hero-content a {
+    margin-top: 68px;
+    padding: 6px 19px;
+    font-size: 11px;
+    gap: 6px;
+  }
+
+  .hero-content a img {
+    width: 11px;
+  }
+
+  /* ---------- USP ------------ */
+  .usp-wave {
+    bottom: -26px;
+  }
+
+  .usp-content {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .usp {
+    gap: 16px;
+  }
+
+  .usp p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* ---------- Heading ------------ */
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .heading::before {
+    width: 43px;
+    height: 12px;
+    left: -50px;
+  }
+
+  .heading::after {
+    width: 43px;
+    height: 12px;
+    right: -50px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .category-box p {
+    font-size: 20px;
+  }
+
+  .category-box a {
+    padding: 5px 18px;
+    font-size: 12px;
+  }
+
+  /* ---- Testimonial Slider -----*/
+
+  .testi-content p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome-image {
+    width: 250px;
+    margin-right: 0;
+  }
+
+  .welcome-content {
+    padding: 56px 32px 32px 32px;
+  }
+
+  .welcome-heading {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+
+  .welcome-para {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .welcome-a {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+
+  /* ------------ Newsletter ------------- */
+  .news-row {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .news-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-col:nth-of-type(1) {
+    margin-bottom: 64px;
+  }
+
+  .news-p {
+    margin-right: 0;
+    margin-right: 80px;
+  }
+
+  .email-box {
+    width: 100%;
+    margin-left: 0;
+    max-width: auto;
+  }
+
+  .email-box::before {
+    display: none;
+  }
+}
+
+@media (max-width: 915px) {
+  /* ------ Menu ------ */
+  .mobile-nav {
+    display: block;
+  }
+
+  .nav-right {
+    gap: 0;
+  }
+
+  .nav-right ul,
+  .nav-items {
+    display: none;
+  }
+
+  .input-box {
+    min-width: 320px;
+  }
+
+  /* ------ Hero Slider ------ */
+  .hero-content {
+    top: 26%;
+    right: 14%;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .hero-content p {
+    font-size: 32px;
+  }
+
+  .hero-content a {
+    margin-top: 55px;
+    padding: 5px 16px;
+    font-size: 8px;
+    gap: 4px;
+  }
+
+  .hero-content a img {
+    width: 8px;
+  }
+
+  /* ---------- USP ------------ */
+  .usp-wave {
+    bottom: -25px;
+  }
+
+  .usp {
+    gap: 10px;
+  }
+
+  .usp p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .category-box p {
+    font-size: 16px;
+  }
+
+  .category-box a {
+    padding: 4px 14px;
+    font-size: 10px;
+  }
+
+  /* ----------- Testimonials ------------ */
+
+  .testimonial-slider {
+    padding: 60px 40px;
+  }
+
+  .testimonial-box-inside {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .user-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile p {
+    font-size: 16px;
+  }
+
+  .profile h5 {
+    font-size: 22px;
+  }
+
+  .testi-content p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .quote {
+    justify-content: space-between;
+  }
+
+  .quote img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* ---- Container ---- */
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  /* ---- Top Bar ---- */
+
+  .top-bar .content {
+    font-size: 14px;
+    line-height: 1.25;
+    padding: 14px 10px 0 10px;
+  }
+
+  /* ----- Navbar ----- */
+  nav {
+    padding: 48px 0 24px 0;
+  }
+
+  .input-box { 
+    width: calc(100vw - 40px);
+  }
+
+  /* ------ Hero Slider ------ */
+
+  .hero-content {
+    position: relative;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .hero-content h1 {
+    color: #f8910e;
+    filter: drop-shadow(3.709px 1.498px 0px #d977001e);
+    font-size: 64px;
+    line-height: 40px;
+  }
+
+  .hero-content p {
+    color: #f8910e;
+    filter: drop-shadow(3.709px 1.498px 0px #d977001e);
+    font-size: 54px;
+  }
+
+  .hero-content a {
+    margin-top: 40px;
+    padding: 8px 26px;
+    font-size: 14px;
+    gap: 7px;
+  }
+
+  .hero-content a img {
+    width: 14px;
+  }
+
+  /* ---------- USP ------------ */
+  .usp-wave {
+    bottom: 20px;
+  }
+
+  .usp-content {
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+  .usp {
+    padding: 0 10px;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .usp p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .col-category {
+    padding: 10px 0;
+    margin-top: 50px;
+  }
+
+  .row-category {
+    gap: 20px;
+  }
+
+  .category-box p {
+    font-size: 14px;
+  }
+
+  .category-box a {
+    padding: 3px 11px;
+    font-size: 8px;
+  }
+
+  /* ----------- Testimonials ------------ */
+
+  .testimonial {
+    margin-top: 80px;
+  }
+
+  .testimonial-box-inside {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .user-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile p {
+    font-size: 16px;
+  }
+
+  .profile h5 {
+    font-size: 22px;
+  }
+
+  .testi-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .quote {
+    justify-content: space-between;
+  }
+
+  .quote img {
+    width: 30px;
+  }
+
+  .feat-product {
+    margin-top: 112px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .welcome-image {
+    width: 400px;
+  }
+
+  .welcome-content {
+    padding: 0px 32px 32px 32px;
+  }
+
+  /* ------------ Newsletter ------------- */
+
+  .newsletter {
+    margin-top: 80px;
+  }
+
+  .news-col:nth-of-type(1) {
+    margin-bottom: 56px;
+  }
+
+  .news-title {
+    font-size: 28px;
+  }
+
+  .news-p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 0;
+    margin-right: 80px;
+  }
+
+  .email-box {
+    max-width: 450px;
+  }
+
+  .email-box::after {
+    right: -21px;
+    height: 96px;
+    width: 50px;
+  }
+
+  .email-input {
+    padding: 16px 12px;
+    font-size: 16px;
+  }
+
+  .btn-email {
+    padding: 14px 32px;
+    font-size: 20px;
+  }
+
+  /* --------- Footer -------- */
+
+  footer {
+    margin-top: 40px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .footer-col {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .footer-col:nth-of-type(1) {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .footer-col:nth-of-type(4) {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .payment {
+    margin-top: 40px;
+  }
+
+  /* ---------- Bottom Bar ---------- */
+
+  .bottom-bar::before {
+    bottom: 50px;
+  }
+
+  footer .bottom-bar .content {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 0 28px 0;
+  }
+
+  footer .bottom-bar p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 515px) {
+
+  .top-bar .content {
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 10px 10px 0 10px;
+  }
+  
+  /* ----- Navbar ----- */
+  nav {
+    padding: 32px 0 16px 0;
+  }
+
+  .nav-left {
+    gap: 20px;
+  }
+
+  .logo img {
+    width: 160px;
+  }
+
+  .menu-button button img {
+    width: 24px;
+  }
+
+  .cart {
+    width: 36px;
+  }
+
+  .count {
+    right: 28px;
+  }
+
+  /* ------ Hero Slider ------ */
+
+  .hero-content h1 {
+    color: #f8910e;
+    filter: drop-shadow(3.709px 1.498px 0px #d977001e);
+    font-size: 56px;
+    line-height: 36px;
+  }
+
+  .hero-content p {
+    color: #f8910e;
+    filter: drop-shadow(3.709px 1.498px 0px #d977001e);
+    font-size: 46px;
+  }
+
+  .hero-content a {
+    margin-top: 40px;
+    padding: 7px 24px;
+    font-size: 12px;
+    gap: 6px;
+  }
+
+  .hero-content a img {
+    width: 12px;
+  }
+
+  /* ---------- USP ------------ */
+  .usp-wave {
+    bottom: 210px;
+  }
+
+  .usp-content {
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 32px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .usp {
+    flex-direction: row;
+    gap: 20px;
+    /* align-self: center; */
+  }
+
+  .usp p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+
+  .usp-divider {
+    border-bottom: 2px dotted #cfcfcf;
+    width: calc(100% - 200px);
+    height: 2px;
+    align-self: center;
+  }
+
+  /* ---------- Heading ------------ */
+
+  .heading {
+    margin: 32px 0;
+    font-size: 24px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .row-category {
+    /* padding: 0 10px; */
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .category-box p {
+    font-size: 30px;
+  }
+
+  .category-box a {
+    padding: 8px 24px;
+    font-size: 16px;
+  }
+
+  /* ---- Testimonial -----*/
+
+  .testi-content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  /* ------- Featured Product Arrows --------*/
+
+  .product-slider {
+    margin-top: 88px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome-image {
+    width: 320px;
+    margin: 32px;
+  }
+
+  .welcome-content {
+    padding: 0px 32px 32px 32px;
+  }
+
+  /* ------------ Newsletter ------------- */
+
+  .news-p {
+    margin-right: 0;
+  }
+
+  .email-box {
+    max-width: 360px;
+  }
+
+  .email-box::after {
+    right: -19px;
+    height: 88px;
+    width: 46px;
+  }
+
+  .email-input {
+    padding: 14px 10px;
+    font-size: 14px;
+  }
+
+  .btn-email {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  /* ---- Top Bar ---- */
+
+  .top-bar p {
+    font-size: 12px;
+  }
+
+  /* ----- NavBar -----*/
+  .nav-left {
+    gap: 20px;
+  }
+
+  .logo img {
+    width: 130px;
+  }
+
+  .menu-button button img {
+    width: 20px;
+  }
+
+  .search-toggle img {
+    width: 20px;
+  }
+
+  .cart {
+    width: 30px;
+  }
+
+  .count {
+    right: 26.75px;
+    font-size: 10px;
+  }
+
+  /* ------ Hero Slider ------ */
+
+  .hero-content h1 {
+    color: #f8910e;
+    filter: drop-shadow(3.709px 1.498px 0px #d977001e);
+    font-size: 42px;
+    line-height: 24px;
+  }
+
+  .hero-content p {
+    color: #f8910e;
+    filter: drop-shadow(3.709px 1.498px 0px #d977001e);
+    font-size: 34px;
+  }
+
+  .hero-content a {
+    margin-top: 32px;
+    padding: 6px 20px;
+    font-size: 11px;
+    gap: 5px;
+  }
+
+  .hero-content a img {
+    width: 11px;
+  }
+
+  /* ---------- Heading ------------ */
+
+  .heading {
+    font-size: 20px;
+  }
+
+  /* ---------- Categories ------------ */
+
+  .row-category {
+    gap: 36px;
+  }
+
+  .category-box p {
+    font-size: 24px;
+  }
+
+  .category-box a {
+    padding: 6px 22px;
+    font-size: 14px;
+  }
+
+  /* ---------- Welcome ------------ */
+
+  .welcome-image {
+    width: 250px;
+    margin: 30px;
+  }
+
+  .welcome-content {
+    padding: 0px 30px 30px 30px;
+  }
+
+  /* ------------ Newsletter ------------- */
+
+  .email-box {
+    max-width: 300px;
+  }
+
+  .email-box::after {
+    right: -17px;
+    height: 77px;
+    width: 40px;
+  }
+
+  .email-input {
+    padding: 12px 8px;
+    font-size: 12px;
+  }
+
+  .btn-email {
+    padding: 8px 22px;
+    font-size: 14px;
+  }
+
+  /* ---------- Bottom Bar ---------- */
+
+  .bottom-bar::before {
+    bottom: 32px;
+  }
+
+  footer .bottom-bar .content {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 0 22px 0;
+  }
+
+  footer .bottom-bar p {
+    font-size: 12px;
+  }
+}

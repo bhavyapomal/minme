@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 74" width="71" height="71">
+	<title>&gt; copy 6</title>
+	<defs>
+		<image  width="28" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAASBAMAAAC6KaPXAAAAAXNSR0IB2cksfwAAABtQTFRFqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqdja6igAAAAl0Uk5TABzY1AHc//jSEjFv7wAAAFNJREFUeJxjZGBgYFSSPcAAAYxALOp7D4nLGPp7PQOCKxqw+gOCiywJ5CJLMjCiSDIwokgyMJYhcRiY0LloitGMQrMI3RlojkT3ApoHgd6/C5MFAMEYIONVAMydAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff;stroke: #aaaaaa;stroke-linejoin: round;stroke-width: 3 } 
+	</style>
+	<g id="&gt; copy 6">
+		<path id="Rectangle 549" fill-rule="evenodd" class="s0" d="m37 1.6l-35.4 35.4 35.4 35.4 35.4-35.4z"/>
+		<use id="Vector Smart Object" href="#img1" x="23" y="28"/>
+	</g>
+</svg>
